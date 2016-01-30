@@ -24,7 +24,7 @@ from tudou_site.auth import session
 
 # from spk_site.modules import modules
 
-define('port', default=8000, help='run on the given port', type=int)
+define('port', default=8010, help='run on the given port', type=int)
 
 
 class Application(tornado.web.Application):

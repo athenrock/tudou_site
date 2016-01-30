@@ -17,7 +17,7 @@
 		<!---- animated-css ---->
 		<link href="{{ static_url('css/animate.css') }}" rel="stylesheet" type="text/css" media="all">
 		<script type="text/javascript" src="{{ static_url('js/jquery.corner.js') }}"></script>
-		<script src="js/wow.min.js"></script>
+		<script src="{{ static_url('js/wow.min.js') }}"></script>
 		<script>
 		 new WOW().init();
 		</script>
@@ -72,7 +72,7 @@
 								<li class="page-scroll"><a href="#contact" class="scroll">contact</a></li>
 								<li class="active-join" class="page-scroll"><a href="#team" class="scroll">join us</a></li>
 							</ul>
-							<a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
+							<a href="#" id="pull"><img src="{{ static_url('images/nav-icon.png') }}" title="menu" /></a>
 						</nav>
 						<div class="clearfix"> </div>
 					</div>
@@ -528,8 +528,8 @@
 				<!----sreen-gallery-cursual---->
 						<div class="sreen-gallery-cursual">
 							 <!-- requried-jsfiles-for owl -->
-							<link href="css/owl.carousel.css" rel="stylesheet">
-							    <script src="js/owl.carousel.js"></script>
+							<link href="{{ static_url('css/owl.carousel.css') }}" rel="stylesheet">
+							    <script src="{{ static_url('js/owl.carousel.js') }}"></script>
 							        <script>
 							    $(document).ready(function() {
 							      $("#owl-demo").owlCarousel({
